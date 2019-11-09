@@ -1,0 +1,33 @@
+#gameSpace {
+    border: 2px solid #ffffff;
+    background-color: hsla(128, 94%, 25%, 0.411);
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/00/Staugustinegrass.JPG'); */
+    position: fixed;
+    width: 98%;
+    height: 88%;
+}
+
+#stats {
+    border: 2px solid #ffffff;
+    background-color: #000000;
+    position: fixed;
+    top: 88%;
+    width: 98%;
+    height: 9.8%;
+}
+
+img {
+    display: none;
+}
+
+#settingsMenu {
+    display: none;
+}
+
+/* #startMenu {
+    position : fixed;
+    left: 35%;  
+} */
+
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Snake Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <div id="startMenu">
+        <h2>Main Menu</h2>
+        <p>You need score 10 to level up!</p>
+        <p>Press the spacebar to start the snake.</p>
+        <p>Use the arrow keys to navigate. Mind yourself and the walls!</p>
+        <p>If you failed, press the "R" key to restart the level. Trust me, you will fail!</p>
+        <p>Press the "ESC" key to go back to main menu.</p>
+        <button onclick="startGame()">Start the game!</button>
+    </div>
+
+    
+    <audio id="snakeRip"><source src="sounds/ohno.mp3"></audio>
+    <audio id="snakeChomp"><source src="sounds/snakeChomp.mp3"></audio>
+
+    <img src="images/wall1.png" id="wall1png"></img>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
